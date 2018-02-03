@@ -1,0 +1,230 @@
+body 
+{
+    background-image: url("../image/bg.jpg");
+    background-repeat: repeat;
+    background-color: #cccccc;
+}
+#hname{
+    font-weight: bold;
+     color: #ffffff;
+  line-height: 90px;
+  vertical-align: middle;
+    
+    
+     background-color : #4aaaa5 ;
+   text-align: center;
+    font-size: 30px;
+    font-family: font-family: 'Georgia', Times, Times New Roman, serif;
+   
+    position: absolute;
+    top: 0 px;
+    left: 280px;
+     width: 298px;
+      height: 80px;
+    
+       z-index: 1;
+ 
+}
+#whitebackground{
+    
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+    border: 3px solid #dddddd;
+    
+}
+#links{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+    line-height: 90px;
+    color: #c1c1c1;
+    position: absolute;
+    top: 0;
+   left: 970px;
+    width: 270px;
+    height: 100px;
+  
+    a:active {
+        color: none;
+    }
+    
+}
+#aboutme{
+    
+    position: fixed;
+    top: 110px;
+    left: 280px;
+    width: 650px;
+    height: 700px;
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
+    
+}
+img {
+    
+    float: left;
+    
+    width:170px;
+    height:160px;
+    margin-left:15px;
+    margin-right: 15px;
+}
+button{
+    width: 100px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 10px;
+    color:#ffffff;
+    background-color: #4aaaa5;
+    
+    
+}
+hr{
+    size:90px;
+
+    margin-left: 10px;
+    margin-right:10px;
+}
+#smedia{
+    font-family: font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #55aaa5 ;
+    text-align: center;
+   
+    text-align: center;
+    line-height: 30px; 
+    position: fixed;
+    top: 110px;
+    left: 970px;
+    width: 270px;
+    height: 150px;
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
+    
+}
+#footer{
+    color: #ffffff;
+    font-size:11px;
+    background-color: #666666;
+    text-align: center;
+   
+    position: absolute;
+    bottom:  0px;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    
+    border: 2px solid #dddddd;
+    
+}
+#line{
+    background-color: #4aaaa5;
+line-height: 1000px;
+ position: relative;
+   
+    
+    bottom:  0px;
+    left: 0px;
+    width: 100%;
+    height: 8px;
+    
+  
+    
+}
+#abtme{
+    font-weight: bold;
+     color:  #4aaaa5;
+   text-align: left;
+    font-size: 30px;
+    font-family: font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+#txtcontent{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-right: 10px;
+    margin-left: 20px;
+line-height: 25px;
+
+    color: #c1c1c1;
+}
+
+#main {
+
+    display: flex;
+
+}
+#main div:nth-of-type(1) {flex-grow: 1;}
+#main div:nth-of-type(2) {flex-grow: 1;}
+#main div:nth-of-type(3) {flex-grow: 1;}
+#links1 {
+
+    display: flex;
+
+}
+#links1 div:nth-of-type(1) {flex-grow: 1;}
+#links1 div:nth-of-type(2) {flex-grow: 1;}
+#links1 div:nth-of-type(3) {flex-grow: 1;}
+#links1 div:nth-of-type(4) {flex-grow: 1;}
+#links1 div:nth-of-type(5) {flex-grow: 1;}
+.lable1
+{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+   
+    
+    color: #c1c1c1;
+   margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 2px;
+}
+#pics {
+    text-align: center;
+    
+    position: absolute;
+    width: 100%;
+    height: 550px;
+
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+    display: flex;
+    flex-wrap: wrap;
+      overflow-x: scroll;
+    overflow-y: :hidden;
+}
+
+#pics div {
+    
+    margin-right:30px;
+    margin-left: 30px;
+     margin-bottom:  20px;
+    margin-top:  15px;
+    width: 250px;
+    height: 250px;
+    
+   
+  
+}
+#pictags{
+    
+    background-color: lightskyblue;
+    position: absolute;
+    top:0px;
+    width: 10px;
+    
+    height: 10px;
+}
+h3{
+    
+     font-weight: bold;
+     color: #ffffff;
+
+     background-color : #4aaaa5 ;
+     text-align: center;
+    font-size: 30px;
+}
+
